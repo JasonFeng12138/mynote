@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <com.example.feng.mynote.LinEditText
+        android:id="@+id/edit_memo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:capitalize="sentences"
+        android:fadingEdge="vertical"
+        android:gravity="top"
+        android:padding="5dip"
+        android:background="@null"
+        android:scrollbars="vertical"
+        android:hint="请输入内容"
+        android:textColor="#0000ff"/>
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_alignBottom="@+id/edit_memo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#55000000"
+        android:visibility="invisible"/>
+</RelativeLayout>

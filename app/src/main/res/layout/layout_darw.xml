@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cc33cc33"
+    android:orientation="vertical">
+        <TextView
+            android:id="@+id/draw_sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:textColor="#ffffff"
+            android:background="#cc99ccff"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="未登录"
+            android:textSize="45px"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:paddingLeft="15dp"
+            android:gravity="left|center_vertical"
+            android:text="上传备忘和日记"
+            android:textSize="45px"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:paddingLeft="15dp"
+            android:gravity="left|center_vertical"
+            android:text="云恢复"
+            android:textSize="45px"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:paddingLeft="15dp"
+            android:gravity="left|center_vertical"
+            android:text="更换日记密码"
+            android:textSize="45px"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="15dp"
+        android:textColor="#ffffff"
+        android:gravity="left|center_vertical"
+        android:text="退 出"
+        android:textSize="45px"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:paddingLeft="15dp"
+            android:textSize="45px"
+            android:gravity="left|center_vertical"
+            android:text="关于我们"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:paddingLeft="15dp"
+            android:textSize="45px"
+            android:gravity="left|center_vertical"
+            android:text="上次上传时间"/>
+
+
+
+</LinearLayout>

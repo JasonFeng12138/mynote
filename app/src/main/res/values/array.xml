@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weather">
+        <item>晴朗</item>
+        <item>多云</item>
+        <item>阴</item>
+        <item>雾霾</item>
+        <item>小雨</item>
+        <item>大雨</item>
+        <item>雷阵雨</item>
+        <item>小雪</item>
+        <item>大雪</item>
+        <item>大风</item>
+    </string-array>
+    <string-array name="mood">
+        <item>开心</item>
+        <item>悲伤</item>
+        <item>苦闷</item>
+        <item>无语</item>
+        <item>尴尬</item>
+    </string-array>
+    <string-array name="notifytype">
+        <item>生日</item>
+        <item>家庭</item>
+        <item>工作</item>
+        <item>生活</item>
+    </string-array>
+</resources>

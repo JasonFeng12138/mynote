@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            android:background="#996633"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/open_draw"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="菜单"
+                android:paddingLeft="10dp"
+                android:gravity="left"
+                android:textSize="16sp"
+                android:textColor="#cc33cc33"/>
+            <com.example.feng.jin.MyViewPager
+                android:id="@+id/my_indicator"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="备忘"
+                    android:textSize="16sp"
+                    android:textColor="#cc33cc33"
+                    android:gravity="center" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="日记"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:textColor="#cc33cc33"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="提醒"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:textColor="#cc33cc33"/>
+
+            </com.example.feng.jin.MyViewPager>
+            <TextView
+                android:id="@+id/add"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="新建"
+                android:textSize="16sp"
+                android:paddingRight="10dp"
+                android:gravity="right"
+                android:textColor="#cc33cc33"/>
+        </LinearLayout>
+
+
+        <android.support.v4.view.ViewPager
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:id="@+id/id_viewpager"
+            android:background="#ffffff">
+
+        </android.support.v4.view.ViewPager>
+
+
+    </LinearLayout>
+    <!--   侧边栏视图  -->
+    <fragment
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#000000"
+        android:name="com.example.feng.activity.DrawLayout" />
+
+</android.support.v4.widget.DrawerLayout>

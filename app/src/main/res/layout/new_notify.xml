@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/notify_et_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="10dp"
+        android:hint="单击设置提醒时间"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/notify_cb_ling"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:text="响铃提醒"/>
+        <Spinner
+            android:id="@+id/notify_sp_type"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:entries="@array/notifytype"/>
+    </LinearLayout>
+
+    <com.example.feng.mynote.LinEditText
+        android:id="@+id/notify_et_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:capitalize="sentences"
+        android:fadingEdge="vertical"
+        android:gravity="top"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        android:hint="提醒内容"
+        android:textColor="#000000"/>
+
+</LinearLayout>
